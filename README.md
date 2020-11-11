@@ -18,7 +18,7 @@ A sample frame of the "Gingerbread Animating" video is shown in the figure below
 
 The aim of the project is to predict and classify whether a sequence of frames (like the sequence shown above) from the "Gingerbread Animation" video represents classical music, instrumental music or pop music. In this project, I have implemented a hybrid deep learning model called convolutional recurrent neural network (CRNN) to perform video classification on the "Gingerbread Animation" videos dataset. The CRNN model consists of a convolutional layer with ResNet152 or ResNet-34 pre-trained model and a recurrent layer with Long Short Term Memory (LSTM). 
 
-The core block of code and the architecture of the CRNN model including Gingerbread_ResNetCRNN.py, ResNetCRNN_check_prediction.py, check_video_predictions.ipynb, functions.py files are implemented based on https://github.com/HHTseng/video-classification. 
+The core block of code and the architecture of the CRNN model including Gingerbread_ResNetCRNN.py, ResNetCRNN_check_prediction.py, check_video_predictions.ipynb, functions.py files are implemented based on https://github.com/HHTseng/video-classification/tree/master/ResNetCRNN. 
 
 ## Environment Used
 
