@@ -32,8 +32,10 @@ CUDA: 11.0
 
 GPU: Nvidia GTX1660Ti GDDR6 
 
-**Code Running Instructions**
+## Code Running Instructions
 
+### 1. Download or Clone the pre-processed Gingerbread Animation video dataset.
 
+Please initially download or clone this project with the [data_preprocessing](https://github.com/RussellYe/Animating-Physiological-Signals-for-Deep-Learning/tree/main/Data%20pre-processing) folder. The folder [High resolution original videos](https://github.com/RussellYe/Animating-Physiological-Signals-for-Deep-Learning/tree/main/Data%20pre-processing/High%20resolution%20original%20videos) stores the high resolution Gingerbread Animation videos (20 videos), which are not used for training in this project. The folder [Low resolution original videos](https://github.com/RussellYe/Animating-Physiological-Signals-for-Deep-Learning/tree/main/Data%20pre-processing/Low%20resolution%20original%20videos) stores the the low resolution Gingerbread Animation videos (24 videos), which are the original dataset used for training in this project. The folder [Segmentation Info](https://github.com/RussellYe/Animating-Physiological-Signals-for-Deep-Learning/tree/main/Data%20pre-processing/Segmentation%20Info) 
 
 
