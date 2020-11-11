@@ -45,5 +45,12 @@ The 1, 2, 3 at the end of the file name indicates the frame extraction method us
 
 The data used for training is stored in training_split1, training_split2, training_split3 folders, which represents the frame extraction method of 1-frame-per-second, 2-frames-per-second and 3-frames-per-second respectively. 
 
+### 3. Run the CRNN model
+
+There are 
+
+  - `UCF101_3DCNN.py`: model parameters, training/testing process.
+  - `function.py`: modules of 3DCNN & CRNN, data loaders, and some useful functions.
+  - `UCF101actions.pkl`: 101 action names (labels), e.g, *'BenchPress', 'SkyDiving' , 'Bowling', etc.*
 
 
