@@ -67,7 +67,7 @@ There are three types of output:
   - `CRNN_epoch_test_loss.npy`, `CRNN_epoch_test_accuracy.npy`, `CRNN_epoch_training_losses.npy` and `CRNN_epoch_training_accuracy.npy`
   
 To evaluate the model performance in terms of the whole dataset:
-  - `ResNetCRNN_check_prediction.py` is to load the best training model and output a `pkl` file called `Ginger_bread_25.pkl` which stores all 183 predictions in a dataframe by using the training model produced by epoch 25. 
+  - `ResNetCRNN_check_prediction.py` is to load the best training model and output a `pkl` file called `Ginger_bread.pkl` which stores all 183 predictions in a dataframe by using the training model produced by a specific epoch. 
   - `check_video_predictions.ipynb` is to show the prediction results by the training model on the whole dataset, including both the training data and test data. 
   - `npy_visualization.ipynb` is to better visualize the relationships between training loss vs test loss, and between training accuracy and test accuracy. 
   
