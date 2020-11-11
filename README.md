@@ -95,4 +95,5 @@ To evaluate the model performance in terms of the whole dataset:
   
 ## References 
 [1] Rahman, J. S.; Gedeon, T.; Caldwell, S.; Jones, R.; and Jin, Z., 2020. Towards effective music therapy for mental health care using machine learning tools: Human affective reasoning and music genres. Ph.D. thesis. 
+
 [2] Sanchez, J. G., 2017. Electrodermal activity. https://www.sciencedirect.com/topics/psychology/electrodermal-activity.
