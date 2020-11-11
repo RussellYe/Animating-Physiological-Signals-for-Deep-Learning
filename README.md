@@ -55,7 +55,29 @@ There are three files required to run the CRNN model, which are
   - `function.py`: ResNet-152/ResNet-34 CRNN model, data loaders, data transformers. 
   - `3_classes.pkl`: 3 music genres: classical music, instrumental music and pop music. 
 
-To run the code, just run the `Gingerbread_ResNetCRNN.py` in your IDE with the data pre-processing folders, `function.py` and `3_classes.pkl`. 
+For the file `Gingerbread_ResNetCRNN.py`, remember to set up the data pathe and frame extraction methods:
+
+**Data Path**
+
+In the file `Gingerbread_ResNetCRNN.py`, set the data path to  
+```
+data_path = "Data pre-processing/Video cuts collection/Video frames collection/training_split1/"    # define ginger bread data path
+class_name_path = '3_classes.pkl'
+save_model_path = "save_model/"
+```
+
+**Change the frame extraction methods** 
+
+
+To change the frame extraction method in terms of frame rate (1-frame-per-second, 2-frames-per-second and 3-frames-per-second), change the end frame parameter shown below:
+```
+begin_frame, end_frame, skip_frame = 1, 26, 1
+```
+  - For one-frame-per-second, the end frames are 26/21/13, for 100% frames, 80% frames and 50% frames respectively
+  - For two-frames-per-second, the end frames are 52/42/26, for 100% frames, 80% frames and 50% frames respectively
+  - For three-frames-per-second, the end frames are 78/63/39, for 100% frames, 80% frames and 50% frames respectively
+
+**To run the code, just run the `Gingerbread_ResNetCRNN.py` in your IDE with the data pre-processing folders, `function.py` and `3_classes.pkl`.**
 
 ### 4. Model outputs & Evaluation
 
