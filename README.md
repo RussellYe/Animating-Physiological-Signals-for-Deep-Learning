@@ -46,7 +46,7 @@ The 1, 2, 3 at the end of the file name indicates the frame extraction method us
 The data used for training is stored in training_split1, training_split2, training_split3 folders, which represents the frame extraction method of 1-frame-per-second, 2-frames-per-second and 3-frames-per-second respectively. 
 
 All necessary frames and videos required for training are stored in [Video cuts collection](https://github.com/RussellYe/Animating-Physiological-Signals-for-Deep-Learning/tree/main/Data%20pre-processing/Video%20cuts%20collection) folder, so there is no need to run `Video_Segmentation.ipynb`,`Frame_extraction_all.ipynb`, and `Frame_extraction_final.ipynb` again to get the pre-processed data. If you want to do the data pre-processing again, then just keep the three ipynb files mentioned above and the 
-[Low resolution original videos](https://github.com/RussellYe/Animating-Physiological-Signals-for-Deep-Learning/tree/main/Data%20pre-processing/Low%20resolution%20original%20videos) folders and then run `Video_Segmentation.ipynb`,`Frame_extraction_all.ipynb`, and `Frame_extraction_final.ipynb` consecutively. Then, you can mannually generate all necessary pre-processed data used for training. 
+[Data pre-processing/Low resolution original videos](https://github.com/RussellYe/Animating-Physiological-Signals-for-Deep-Learning/tree/main/Data%20pre-processing/Low%20resolution%20original%20videos) folders and delete all other folders. Then, run `Video_Segmentation.ipynb`,`Frame_extraction_all.ipynb`, and `Frame_extraction_final.ipynb` consecutively. After that, you can mannually generate all necessary pre-processed data used for training. 
 ### 3. Run the CRNN model
 
 There are three files required to run the CRNN model, which are 
