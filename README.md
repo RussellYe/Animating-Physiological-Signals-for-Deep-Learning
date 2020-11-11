@@ -93,3 +93,6 @@ To evaluate the model performance in terms of the whole dataset:
   - `check_video_predictions.ipynb` is to show the prediction results by the training model on the whole dataset, including both the training data and test data. 
   - `npy_visualization.ipynb` is to better visualize the relationships between training loss vs test loss, and between training accuracy and test accuracy. 
   
+## References 
+[1] Rahman, J. S.; Gedeon, T.; Caldwell, S.; Jones, R.; and Jin, Z., 2020. Towards effective music therapy for mental health care using machine learning tools: Human affective reasoning and music genres. Ph.D. thesis. 
+[2] Sanchez, J. G., 2017. Electrodermal activity. https://www.sciencedirect.com/topics/psychology/electrodermal-activity.
