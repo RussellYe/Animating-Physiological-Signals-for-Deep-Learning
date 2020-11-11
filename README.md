@@ -77,7 +77,7 @@ begin_frame, end_frame, skip_frame = 1, 26, 1
   - For two-frames-per-second, the end frames are 52/42/26, for 100% frames, 80% frames and 50% frames respectively
   - For three-frames-per-second, the end frames are 78/63/39, for 100% frames, 80% frames and 50% frames respectively
 
-**To run the code, just run the `Gingerbread_ResNetCRNN.py` in your IDE with the data pre-processing folders, `function.py` and `3_classes.pkl`.**
+**To run the code, just run the `Gingerbread_ResNetCRNN.py` in your IDE with the data pre-processing folders, `function.py` file and `3_classes.pkl` file.**
 
 ### 4. Model outputs & Evaluation
 
